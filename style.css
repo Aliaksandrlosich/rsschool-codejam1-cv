@@ -56,6 +56,10 @@ span {
 .contacts a {
     text-decoration: none;
 }
+.contacts p {
+    color: #455266;
+		text-shadow: 1px 1px #000;
+}
 .contacts img:hover {
     opacity: 0.6;
     transform:scale(1.2,1.2);
