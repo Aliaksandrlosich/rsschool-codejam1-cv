@@ -14,8 +14,8 @@ body {
 	 font-family: "Courier New", cursive;
 	 
 	}
-p {    color: #ff0;
-		text-shadow: 1px 1px #000;
+p {    color: #000;
+		text-shadow: 1px 1px #FFF;
 
 }
 span {
@@ -57,7 +57,7 @@ span {
     text-decoration: none;
 }
 .contacts p {
-    color: #455266;
+    color: #455452;
 		text-shadow: 1px 1px #000;
 }
 .contacts img:hover {
