@@ -2,7 +2,8 @@
         padding:0; 
   }
 body {
-	width: 1024px;
+	min-width: 300px;
+	max-width: 1024px;
 	background-image: url("./image/fon.jpg");
 	background-attachment:fixed;
 	background-size: cover;
@@ -13,8 +14,9 @@ body {
 	 font-family: "Courier New", cursive;
 	 
 	}
-p {
-		text-shadow: 1px 1px black;
+p {    color: #ff0;
+		text-shadow: 1px 1px #000;
+
 }
 span {
 	font-size: 18px;
@@ -26,8 +28,8 @@ span {
     }
 #header img {
     display: block;
-    width: 200px;
-    height: 240px;
+    width: 19%;
+    height: 23%;
     margin: auto;
 }
 #header img:hover{
