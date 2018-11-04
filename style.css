@@ -14,26 +14,26 @@ body {
 	 font-family: "Courier New", cursive;
 	 
 	}
-p {    color: #000;
-		text-shadow: 1px 1px #FFF;
+p {  
+    color: #000;
+    text-shadow: 1px 1px #00F;
 
 }
 span {
-	font-size: 18px;
-	font-family: "Handlee",cursive;
+    font-size: 18px;
+    font-family: "Handlee",cursive;
 }
 .img-circle {
     border: 3px solid white;
     border-radius: 50%;
     }
 #header img {
-    display: block;
     width: 19%;
     height: 23%;
     margin: auto;
 }
 #header img:hover{
-	transform:scale(1.05,1.05); 
+    transform:scale(1.05,1.05); 
 }
 #header p {
     font-size: 25px;
@@ -58,7 +58,7 @@ span {
 }
 .contacts p {
     color: #455452;
-		text-shadow: 1px 1px #000;
+    text-shadow: 1px 1px #000;
 }
 .contacts img:hover {
     opacity: 0.6;
@@ -75,7 +75,7 @@ span {
     color: #000011;
 }
 h2 {
-	color: #F00;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 0 10px 0;
+    color: #F00;
+    padding: 10px;
+    margin: 10px 0;
 }
