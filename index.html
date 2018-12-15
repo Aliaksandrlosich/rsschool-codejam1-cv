@@ -3,51 +3,65 @@
 <head>
 	<meta charset="utf-8">
 	<title>My Summary</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-	<div class="header">
-        <img alt="" class="img-circle" src="./image/Photo.jpg">
-        <p>Aliaksandr Losich</p>
-    </div>
-	<h2> Summary: </h2>
-	<p> Hey! I'm <strong>Aliaksandr</strong>. Learning to code gave me problem-solving skills and a way to communicate with others on a technical level.My goal is to be a great Front-end developer.I am easy to learn, as this direction is interesting for me. Why would I be interested?  Because this is a promising direction. </p>
-	<h2> Experience: </h2>
-    <p>Unfortunately, I have no experience in large projects,  as I am still studying in this direction.  Develop your skills layout of the two subject sites.</p>
-	<h2> My Skills: </h2>
-	
-		<p><span> HTML </span><progress  value="69" max="100"></progress></p>
-		<p><span> CSS </span> <progress  value="57" max="100"></progress></p>
-		<p><span> JavaScript </span><progress  value="34" max="100"></progress></p>
-		<p><span> C++ </span><progress  value="26" max="100"></progress></p>
-		<p><span> SQL </span><progress  value="20" max="100"></progress></p>
-    <h2> Education: </h2>
-	 <p> I am a student at BSU, faculty of  Radiohysics and Computer Technologies </p>
-	<h2> English level: </h2>
-	 <p> Elementary </p>
-	<div class="contacts">
-            <h1><span>Contacts:</span></h1>
-            <div>
-            	 <span> Telephone number: </span> <p>+375291146069 </p>
-                <a href="skype:wwedota?chat" target="_blank">
-                    <img alt="Skype" src="./image/iconsskype.png" />
-                </a>
-                <a href="https://www.instagram.com/alexandr.losich/" target="_blank">
-                    <img alt="Instagramm" src="./image/iconsinsta.png" />
-                </a>
-                <a href="https://github.com/Aliaksandrlosich" target="_blank">
-                    <img alt="GitHub" src="./image/iconsgithub.png" />
-                </a>
-                <a href="https://vk.com/neon.alexandr" target="_blank">
-                    <img alt="VK" src="./image/iconsvk.png" />
-                </a>
-                <a href="viber://?id=<+375291146069>" target="_blank">
-                    <img alt="Viber" src="./image/iconsviber.png" />
-                </a>
-            </div>
+
+	<header class="header">
+        <img alt="photo" class="img-circle" src="./image/Photo.jpg" width="19%" height="23%">
+        <h1>Aliaksandr Losich</h1>
+    </header>
+
+    <section class="summary">
+    	<h2 class="new-paragraph"> Summary: </h2>
+    	<p> Hey! I'm <strong>Aliaksandr</strong>. Learning to code gave me problem-solving skills and a way to communicate with others on a technical level.My goal is to be a great Front-end developer.I am easy to learn, as this direction is interesting for me. Why would I be interested?  Because this is a promising direction.</p>
+        <h2 class="new-paragraph"> Experience: </h2>
+        <p>Unfortunately, I have no experience in large projects,  as I am still studying in this direction.  Develop your skills layout of the two subject sites
+    </section>
+
+    <section class="skills">
+        <h2 class="new-paragraph"> My Skills: </h2>
+        <ul>
+            <li> HTML <progress  value="72" max="100"></progress> </li>
+            <li> CSS <progress  value="70" max="100"></progress> </li>
+            <li> JavaScript <progress  value="40" max="100"></progress></li>
+            <li> C++ <progress  value="26" max="100"></progress></li>
+            <li> SQL <progress  value="20" max="100"></progress></li>
+        </ul>
+    </section>
+
+    <section class="education">
+        <h2 class="new-paragraph"> Education: </h2>
+        <p> I am a student at BSU, faculty of  Radiohysics and Computer Technologies </p>
+        <h2 class="new-paragraph"> English level: </h2>
+        <p> Elementary </p>
+    </section>
+
+	<section class="contacts">
+        <h2><span>Contacts:</span></h2>
+        <div>
+            <span> Telephone number: </span> <p>+375291146069 </p>
+            <a href="skype:wwedota?chat" target="_blank">
+            <img alt="Skype" src="./image/icons/iconsskype.png" />
+            </a>
+            <a href="https://www.instagram.com/alexandr.losich/" target="_blank">
+            <img alt="Instagramm" src="./image/icons/iconsinsta.png" height="50px" width="50px" />
+            </a>
+            <a href="https://github.com/Aliaksandrlosich" target="_blank">
+            <img alt="GitHub" src="./image/icons/iconsgithub.png" height="50px" width="50px" />
+            </a>
+            <a href="https://vk.com/neon.alexandr" target="_blank">
+            <img alt="VK" src="./image/icons/iconsvk.png" height="50px" width="50px"/>
+            </a>
+            <a href="viber://?id=<+375291146069>" target="_blank">
+            <img alt="Viber" src="./image/icons/iconsviber.png" height="50px" width="50px"/>
+            </a>
         </div>
-        <div class="copyright">
-            &copy; 2018 My Summary. All rights reserved by me.
-        </div>
+    </section>
+
+    <footer class="copyright">
+        &copy; 2018 My Summary. All rights reserved by me.
+    </footer>
+
 </body>
 </html>
