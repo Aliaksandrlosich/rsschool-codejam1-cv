@@ -68,11 +68,6 @@ a {
     text-shadow: 1px 1px #000
 }
 
-.contacts:hover {
-    opacity: 0.6;
-    transform:scale(1.2,1.2);
-}
-
 .copyright {
     font-size: 12px;
     text-align: right;
